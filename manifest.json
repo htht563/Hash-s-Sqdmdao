@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Hash's Sqdmdao",
+    "version": "0.0.1",
+    "description": "Just make a few minor changes to your Sqdmdao",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "options_ui":{
+        "page": "options.html",
+        "open_in_tab": true
+    },
+    "host_permissions":[
+        "https://*/*"
+    ],
+    "permissions":[],
+    "action": {
+        "default_icon":{
+            "16": "img/icon.png",
+            "48": "img/icon.png",
+            "128": "img/icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+    }
+}
